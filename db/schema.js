@@ -27,6 +27,14 @@ const UserSchema = new Schema({
     updated_at: Date,
     order: [OrderSchema]
 });
+UserSchema.pre('save', function(next){
+    now = new Date();
+    this.updated_at = now;
+    if ( !this.created_at ) {
+        this.created_at = now;
+    }
+    next();
+});
 
 const UserModel = mongoose.model("User", UserSchema);
 const OrderModel = mongoose.model("Order", OrderSchema);

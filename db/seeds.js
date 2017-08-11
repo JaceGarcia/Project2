@@ -60,6 +60,7 @@ const orders = new Order({
 
 //clothes
 const black_shirt = Clothes({
+    imgUrl: 'black.jpeg',
     size: ['XS', 'S', 'M','L','XL','2XL'],
     color: 'black',
     gender: ['Male', 'Female', 'Unisex'],
@@ -69,6 +70,7 @@ const black_shirt = Clothes({
 });
 
 const grey_shirt = Clothes({
+    imgUrl: 'grey.jpg',
     size: ['XS', 'S', 'M','L','XL','2XL'],
     color: 'grey',
     gender: ['Male', 'Female', 'Unisex'],
