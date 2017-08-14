@@ -2,8 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const ClothesSchema = new Schema({
-    id: String,
-    image: String,
+    imgUrl: String,
     size: String,
     color: String,
     gender: String,
@@ -14,12 +13,10 @@ const ClothesSchema = new Schema({
 
 
 const OrderSchema = new Schema({
-    id: String,
     clothes: [ClothesSchema]
 });
 
 const UserSchema = new Schema({
-    id: String,
     first_name: String,
     last_name: String,
     email: { type: String, required: true, unique: true },

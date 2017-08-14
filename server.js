@@ -3,6 +3,9 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const UsersController = require("./controllers/users");
+const ClothesController = require("./controllers/clothes");
+const OrdersController = require("./controllers/order");
+
 const app = express();
 
 
@@ -23,6 +26,8 @@ connection.on('error', (err) => {
 });
 
 app.use('/api/users', UsersController);
+app.use('/api/clothes', ClothesController);
+app.use('/api/order', OrdersController);
 app.use(bodyParser.json());
 app.get('/', (req,res) => {
     res.send('Hello world!');

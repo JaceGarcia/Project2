@@ -1,21 +1,22 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Home from "./components/Home";
-//import Clothes from "./components/Clothes";
-import AddUser from "./components/AddUser";
-import Display from "./components/Display";
-import Cart from "./components/Cart";
+import { BrowserRouter as Router, Route} from 'react-router-dom';
+import Home from './Component/Home';
+import AddUser from "./Component/AddUser";
+import Display from "./Component/Display";
+import Cart from "./Component/Cart";
 
 class App extends Component {
     render() {
         return (
             <Router>
-                 <div>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/display/:displayId" component={Display} />
-                    <Route path="/add-user" component={AddUser} />
-                    <Route path="/cart" component={Cart} />
-                 </div>
+                <div>
+                    <div>
+                        <Route exact path="/" component={Home} />
+                        <Route path="/display/:displayId" component={Display} />
+                        <Route path="/add-user" component={AddUser} />
+                        <Route path="/cart" component={Cart} />
+                     </div>
+                </div>
             </Router>
         );
     }
