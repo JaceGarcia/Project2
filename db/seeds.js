@@ -60,9 +60,10 @@ const orders = new Order({
 
 //clothes
 const grey_shirt = new Clothes({
+    name: 'Grey Shirt',
     imgUrl: 'http://i.imgur.com/Rimthyq.jpg',
     size: ['XS', 'S', 'M','L','XL','2XL'],
-    color: 'black',
+    color: 'Grey',
     gender: ['Male', 'Female', 'Unisex'],
     age_group: ['Adult', 'Kid'],
     price: 19.99,
@@ -70,9 +71,10 @@ const grey_shirt = new Clothes({
 });
 
 const black_shirt = Clothes({
+    name: 'Black Shirt',
     imgUrl: 'http://i.imgur.com/r5LANBR.jpg',
     size: ['XS', 'S', 'M','L','XL','2XL'],
-    color: 'grey',
+    color: 'Black',
     gender: ['Male', 'Female', 'Unisex'],
     age_group: ['Adult', 'Kid'],
     price: 19.99,

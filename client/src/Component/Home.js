@@ -14,7 +14,7 @@ class Home extends Component {
         }
     }
     componentWillMount() {
-        axios.get('api/clothes').then(res => {
+        axios.get(`api/clothes`).then(res => {
             this.setState({clothes: res.data})
         });
     }
@@ -25,7 +25,13 @@ class Home extends Component {
                 <Link to="/add-user">Login</Link>
                 <div>
                 <h1>Kerusso2.0</h1>
-                <Clothes />
+                    {this.state.clothes.map((clothing, i) => {
+                        return (
+                            <div key={i}>
+                                <Link to={`/${clothing._id}/display`}><img src={clothing.imgUrl} alt=''/></Link>
+                            </div>
+                        )
+                    })}
                 </div>
             </div>
         );
