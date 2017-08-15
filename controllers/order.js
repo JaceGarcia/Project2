@@ -1,15 +1,26 @@
 const express = require('express');
-const Orders = require('../models/order');
+const Order = require('../models/order');
 const router = express.Router();
 
 router.get("/", (req,res) => {
-    Orders.find().then(order => {
+    Order.find().then(order => {
         res.json(order);
     })
 })
 router.get("/:id", (req,res) => {
-    Orders.findById(req.params.id).then((order) => {
+    Order.findById(req.params.id).then((order) => {
         res.json(order);
     })
 })
+router.post("/", (req, res) => {
+    const newOrder = new Order();
+    console.log(req.body);
+    newOrder.name = req.body.name;
+    newOrder.imgUrl = req.body.imgUrl;
+    newOrder.color = req.body.color;
+    newOrder.size = req.body.size;
+    newOrder.gender = req.body.gender;
+    newOrder.save();
+
+});
 module.exports = router;

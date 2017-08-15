@@ -12,4 +12,13 @@ router.get("/:id", (req,res) => {
     res.json(users);
     })
 })
+router.post("/", (req, res) => {
+    const newUser = new User();
+    console.log(req.body);
+    newUser.firstName = req.body.firstName;
+    newUser.lastName = req.body.lastName;
+    newUser.email = req.body.email;
+    newUser.save();
+
+});
 module.exports = router;

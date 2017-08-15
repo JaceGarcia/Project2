@@ -12,4 +12,5 @@ router.get("/:id", (req,res) => {
         res.json(clothes);
     })
 })
+
 module.exports = router;

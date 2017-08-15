@@ -24,11 +24,10 @@ connection.on('connected', () => {
 connection.on('error', (err) => {
     console.log('Mongoose default connection error: ' + err);
 });
-
+app.use(bodyParser.json());
 app.use('/api/users', UsersController);
 app.use('/api/clothes', ClothesController);
 app.use('/api/order', OrdersController);
-app.use(bodyParser.json());
 app.get('/', (req,res) => {
     res.send('Hello world!');
 })

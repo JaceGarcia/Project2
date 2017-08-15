@@ -6,7 +6,6 @@ class Clothes extends Component {
     constructor() {
         super();
         this.state = {
-            id: '',
             imgUrl: '',
             size: '',
             color: '',
@@ -17,6 +16,9 @@ class Clothes extends Component {
             order: []
         }
     }
+
+
+
 
     componentWillMount() {
         axios.get(`/api/clothes`).then((res) => {
