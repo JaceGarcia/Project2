@@ -5,6 +5,7 @@ class Cart extends Component {
     constructor() {
         super();
         this.state = {
+            order: [],
             clothes: []
         }
     }
