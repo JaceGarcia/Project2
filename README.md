@@ -11,3 +11,14 @@
 # Overview
 
 Kerusso 2.0 is a clothing website that allows you to buy shirts (or atleast attempted to)
+
+# User Stories
+
+* Enter page
+* Click on a shirt
+* Takes you to display page 
+* Choose size, color and gender you want
+* Submit the shit
+* Click on log in
+* Type info
+* Click submit
