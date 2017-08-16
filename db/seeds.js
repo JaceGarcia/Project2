@@ -70,6 +70,17 @@ const grey_shirt = new Clothes({
     quantity: 0
 });
 
+const green_shirt = new Clothes({
+    name: 'Green Shirt',
+    imgUrl: 'http://i.imgur.com/s9IoyA0.jpg',
+    size: ['XS', 'S', 'M','L','XL','2XL'],
+    color: 'Green',
+    gender: ['Male', 'Female', 'Unisex'],
+    age_group: ['Adult', 'Kid'],
+    price: 19.99,
+    quantity: 0
+});
+
 const black_shirt = Clothes({
     name: 'Black Shirt',
     imgUrl: 'http://i.imgur.com/r5LANBR.jpg',
@@ -126,5 +137,10 @@ grey_shirt.save(function(err) {
     if (err) console.log(err);
 
     console.log('Grey shirt created!');
+});
+green_shirt.save(function(err) {
+    if (err) console.log(err);
+
+    console.log('Green shirt created!');
 });
 mongoose.connection.close();

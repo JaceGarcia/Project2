@@ -19,12 +19,16 @@ class Home extends Component {
     }
 
     render(){
+        const imageStyles = {
+            width: "300",
+            height: "300"
+        }
         return (
                 <div>
                     {this.state.clothes.map((clothing, i) => {
                         return (
                             <div key={i}>
-                                <Link to={`/${clothing._id}/display`}><img src={clothing.imgUrl} alt=''/></Link>
+                                <Link to={`/${clothing._id}/display`}><img style={imageStyles} src={clothing.imgUrl} alt=''/></Link>
                             </div>
                         )
                     })}
