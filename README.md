@@ -22,3 +22,10 @@ Kerusso 2.0 is a clothing website that allows you to buy shirts (or atleast atte
 * Click on log in
 * Type info
 * Click submit
+
+# Stretch Goals-
+
+* Create a login.
+* Show orders
+* Add shirts
+* Add shipping and tracking
