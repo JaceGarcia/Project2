@@ -39,13 +39,25 @@ class AddUser extends Component {
     };
 
     render() {
+        const buttonStyles = {
+            borderRadius: "5px",
+            fontSize: "15px",
+            textDecoration: "none",
+            margin: "20px",
+            color: "#000",
+            position: "relative",
+            display: "flex",
+            backgroundColor: "#fff",
+            alignContent: "center"
+
+        };
         return (
             <div>
                 <form>
-                    <input onChange={this._handleChangeFirstName} type="text" name="FirstName" placeholder="First Name"/>
-                    <input onChange={this._handleChangeLastName} type="text" name="LastName" placeholder="Last Name"/>
-                    <input onChange={this._handleChangeEmail} type="text" name="Email" placeholder="Email"/>
-                    <input onClick={this._handleSubmit} type="submit" />
+                    <input style={buttonStyles} onChange={this._handleChangeFirstName} type="text" name="FirstName" placeholder="First Name"/>
+                    <input style={buttonStyles} onChange={this._handleChangeLastName} type="text" name="LastName" placeholder="Last Name"/>
+                    <input style={buttonStyles} onChange={this._handleChangeEmail} type="text" name="Email" placeholder="Email"/>
+                    <input style={buttonStyles} onClick={this._handleSubmit} type="submit" />
                 </form>
 
             </div>
