@@ -29,3 +29,16 @@ Kerusso 2.0 is a clothing website that allows you to buy shirts (or atleast atte
 * Show orders
 * Add shirts
 * Add shipping and tracking
+
+
+# Technologies Used
+* Meterialize
+* CSS 
+* Express
+* React
+* imagur.com
+* Heroku
+* HTML 5
+* jQuery
+* Mongoose
+* javaScript
