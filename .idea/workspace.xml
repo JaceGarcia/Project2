@@ -35,8 +35,8 @@
       <file leaf-file-name="Display.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Component/Display.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="121" column="49" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="49" />
+            <state relative-caret-position="181">
+              <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="35" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
                 <marker date="1502894803000" expanded="true" signature="2832:4282" ph="..." />
@@ -61,8 +61,8 @@
       <file leaf-file-name="AddUser.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/Component/AddUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="130">
+              <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -313,12 +313,12 @@
       <workItem from="1502397754398" duration="30645000" />
       <workItem from="1502581817360" duration="617000" />
       <workItem from="1502584036105" duration="16763000" />
-      <workItem from="1502734101615" duration="47085000" />
+      <workItem from="1502734101615" duration="47357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95110000" />
+    <option name="totallyTimeSpent" value="95382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -698,17 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Component/Cart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1502897775000" expanded="true" signature="476:739" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-39">
@@ -759,10 +748,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Component/Cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1502897775000" expanded="true" signature="476:739" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Component/Display.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="121" column="49" lean-forward="true" selection-start-line="121" selection-start-column="28" selection-end-line="121" selection-end-column="49" />
+        <state relative-caret-position="181">
+          <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="35" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
             <marker date="1502894803000" expanded="true" signature="2832:4282" ph="..." />
@@ -772,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Component/AddUser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="130">
+          <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

@@ -49,10 +49,15 @@ class AddUser extends Component {
             display: "flex",
             backgroundColor: "#fff",
             alignContent: "center"
+        }
+        const bodyStyles = {
+            display: "flex",
+            justifyContent: "center",
+            padding: "200px"
+        }
 
-        };
         return (
-            <div>
+            <div style={bodyStyles}>
                 <form>
                     <input style={buttonStyles} onChange={this._handleChangeFirstName} type="text" name="FirstName" placeholder="First Name"/>
                     <input style={buttonStyles} onChange={this._handleChangeLastName} type="text" name="LastName" placeholder="Last Name"/>
