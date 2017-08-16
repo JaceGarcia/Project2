@@ -41,8 +41,6 @@ class AddUser extends Component {
     render() {
         return (
             <div>
-                <Link to="/">Home</Link>
-
                 <form>
                     <input onChange={this._handleChangeFirstName} type="text" name="FirstName" placeholder="First Name"/>
                     <input onChange={this._handleChangeLastName} type="text" name="LastName" placeholder="Last Name"/>

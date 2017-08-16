@@ -20,10 +20,7 @@ class Home extends Component {
 
     render(){
         return (
-            <div>
-                <Link to="/add-user">Login</Link>
                 <div>
-                <h1 className="head">Kerusso2.0</h1>
                     {this.state.clothes.map((clothing, i) => {
                         return (
                             <div key={i}>
@@ -32,7 +29,6 @@ class Home extends Component {
                         )
                     })}
                 </div>
-            </div>
         );
     }
 }
