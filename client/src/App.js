@@ -33,19 +33,17 @@ class App extends Component {
             borderRadius: "5px",
             fontSize: "20px",
             textDecoration: "none",
-            margin: "20px",
+            margin: "8px",
             position: "relative",
             display: "flex",
             alignContent: "center",
-            paddingTop: "10px",
             color: "Black"
         }
         return (
             <Router>
                 <div>
                     <navBar style={navBar}>
-                        <Link style={buttonStyles} to="/">Home</Link>
-                        <h2 style={titleStyles}>Kerusso2.0</h2>
+                        <Link style={buttonStyles} to="/"><h2 style={titleStyles}>Kerusso2.0</h2></Link>
                         <Link style={buttonStyles} to="/add-user">Login</Link>
 
                     </navBar>
