@@ -112,6 +112,7 @@ class Display extends Component {
                     <select  style={buttonStyles} onChange={this._handleChangeColor} ref="dropdown" defaultValue="1">
                         <option value="" disabled>Choose your option</option>
                         <option>Black</option>
+                        <option>Green</option>
                         <option>Grey</option>
                     </select>
                     <select  style={buttonStyles} onChange={this._handleChangeSize} ref="dropdown" defaultValue="1">
