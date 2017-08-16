@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6642097c-17e7-4b5d-a1ac-6aae87ec3e95" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/Component/Home.js" afterPath="$PROJECT_DIR$/client/src/Component/Home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.js" afterPath="$PROJECT_DIR$/db/seeds.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/Component/Display.js" afterPath="$PROJECT_DIR$/client/src/Component/Display.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Component/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="450">
+              <caret line="30" column="94" lean-forward="true" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="94" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -30,14 +28,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Display.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Display.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/Component/Display.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="112" column="49" lean-forward="false" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="49" />
+            <state relative-caret-position="208">
+              <caret line="109" column="41" lean-forward="false" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <marker date="1502894803000" expanded="true" signature="2832:4282" ph="..." />
+                <marker date="1502903419000" expanded="true" signature="2924:4395" ph="..." />
               </folding>
             </state>
           </provider>
@@ -163,7 +161,6 @@
         <option value="$PROJECT_DIR$/client/src/Component/style/home.js" />
         <option value="$PROJECT_DIR$/client/src/App.css" />
         <option value="$PROJECT_DIR$/client/src/style/home.js" />
-        <option value="$PROJECT_DIR$/client/src/Component/Display.js" />
         <option value="$PROJECT_DIR$/client/src/Component/Cart.js" />
         <option value="$PROJECT_DIR$/controllers/users.js" />
         <option value="$PROJECT_DIR$/controllers/order.js" />
@@ -173,6 +170,7 @@
         <option value="$PROJECT_DIR$/client/src/App.js" />
         <option value="$PROJECT_DIR$/db/seeds.js" />
         <option value="$PROJECT_DIR$/client/src/Component/Home.js" />
+        <option value="$PROJECT_DIR$/client/src/Component/Display.js" />
       </list>
     </option>
   </component>
@@ -311,12 +309,12 @@
       <workItem from="1502397754398" duration="30645000" />
       <workItem from="1502581817360" duration="617000" />
       <workItem from="1502584036105" duration="16763000" />
-      <workItem from="1502734101615" duration="48738000" />
+      <workItem from="1502734101615" duration="48836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96763000" />
+    <option name="totallyTimeSpent" value="96861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -330,7 +328,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.050995026" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17537314" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -748,23 +746,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Component/Display.js">
+    <entry file="file://$PROJECT_DIR$/client/src/Component/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="112" column="49" lean-forward="false" selection-start-line="112" selection-start-column="29" selection-end-line="112" selection-end-column="49" />
+        <state relative-caret-position="450">
+          <caret line="30" column="94" lean-forward="true" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="94" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <marker date="1502894803000" expanded="true" signature="2832:4282" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Component/Home.js">
+    <entry file="file://$PROJECT_DIR$/client/src/Component/Display.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="208">
+          <caret line="109" column="41" lean-forward="false" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <marker date="1502903419000" expanded="true" signature="2924:4395" ph="..." />
           </folding>
         </state>
       </provider>

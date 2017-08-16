@@ -98,12 +98,16 @@ class Display extends Component {
             justifyContent: "center",
             padding: "200px"
         }
+        const imageStyles = {
+            width: "300",
+            height: "300"
+        }
 
         return (
 
             <div style={bodyStyles}>
                 <h2>{this.state.color} Shirt </h2>
-                <img src={this.state.imgUrl} alt=""/>
+                <img  style={imageStyles} src={this.state.imgUrl} alt=""/>
                 <div>
                     <select  style={buttonStyles} onChange={this._handleChangeColor} ref="dropdown" defaultValue="1">
                         <option value="" disabled>Choose your option</option>
