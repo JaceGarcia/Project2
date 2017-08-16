@@ -21,6 +21,10 @@ router.post("/", (req, res) => {
     newOrder.size = req.body.size;
     newOrder.gender = req.body.gender;
     newOrder.save();
-
 });
+
+router.get('/:orderId', (req, res) => {
+    const clothesId = req.params.clothesId;
+});
+
 module.exports = router;

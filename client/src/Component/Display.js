@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
+import { Link} from 'react-router-dom';
+
 
 class Display extends Component {
     constructor() {
@@ -70,6 +72,7 @@ class Display extends Component {
             });
         });
     }
+
     componentDidMount() {
         const element = ReactDOM.findDOMNode(this.refs.dropdown)
 
@@ -78,37 +81,52 @@ class Display extends Component {
         });
     }
     render() {
+        const buttonStyles = {
+            borderRadius: "5px",
+            fontSize: "15px",
+            textDecoration: "none",
+            margin: "20px",
+            color: "#000",
+            position: "relative",
+            display: "flex",
+            backgroundColor: "#fff",
+            alignContent: "center"
+
+        };
+        const bodyStyles = {
+            display: "flex",
+            justifyContent: "center",
+            padding: "200px"
+        }
+
         return (
 
-            <div className="input-field col s12">
-                <select onChange={this._handleChangeColor} ref="dropdown" defaultValue="1">
-                    <option value="" disabled>Choose your option</option>
-                    <option>Black</option>
-                    <option>Grey</option>
-                </select>
-                <label>Color</label>
-                <select onChange={this._handleChangeSize} ref="dropdown" defaultValue="1">
-                    <option disabled>Choose your option</option>
-                    <option>XS</option>
-                    <option>S</option>
-                    <option>M</option>
-                    <option>L</option>
-                    <option>XL</option>
-                    <option>2XL</option>
-                </select>
-                <label>Size</label>
-                <select onChange={this._handleChangeGender} ref="dropdown" defaultValue="1">
-                    <option  disabled>Choose your option</option>
-                    <option>Male</option>
-                    <option>Female</option>
-                    <option>Unisex</option>
-                </select>
-                <label>Gender</label>
-                <input onClick={this._handleSubmit} type="submit" />
-
+            <div style={bodyStyles}>
                 <h2>{this.state.color} Shirt </h2>
                 <img src={this.state.imgUrl} alt=""/>
-
+                <div>
+                    <select  style={buttonStyles} onChange={this._handleChangeColor} ref="dropdown" defaultValue="1">
+                        <option value="" disabled>Choose your option</option>
+                        <option>Black</option>
+                        <option>Grey</option>
+                    </select>
+                    <select  style={buttonStyles} onChange={this._handleChangeSize} ref="dropdown" defaultValue="1">
+                        <option disabled>Choose your option</option>
+                        <option>XS</option>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                        <option>2XL</option>
+                    </select>
+                    <select  style={buttonStyles} onChange={this._handleChangeGender} ref="dropdown" defaultValue="1">
+                        <option  disabled>Choose your option</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Unisex</option>
+                    </select>
+                    <Link to="/:orderId"><input  style={buttonStyles} onClick={this._handleSubmit} type="submit" /></Link>
+                </div>
             </div>
         );
     }

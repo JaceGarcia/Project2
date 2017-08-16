@@ -23,7 +23,7 @@ class Home extends Component {
             <div>
                 <Link to="/add-user">Login</Link>
                 <div>
-                <h1>Kerusso2.0</h1>
+                <h1 className="head">Kerusso2.0</h1>
                     {this.state.clothes.map((clothing, i) => {
                         return (
                             <div key={i}>
