@@ -4,9 +4,9 @@
 
 * Heroku Link: https://aqueous-crag-53418.herokuapp.com/
 
-* Wireframe and ERD Link:https://www.lucidchart.com/invitations/accept/419e5bd5-e084-4d0c-b32b-1d563d71245a
-
 * TrelloBoard: https://trello.com/b/cN3MGvUn/kerusso-20
+
+![alt text](http://i.imgur.com/9PILX4U.png)
 
 # Overview
 
