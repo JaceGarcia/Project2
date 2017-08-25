@@ -4,7 +4,7 @@
 
 * Heroku Link: https://aqueous-crag-53418.herokuapp.com/
 
-* Wireframe and ERD Link: https://www.lucidchart.com/documents/edit/a1614d23-d4d5-41c2-8fcc-996c7467d96b#
+* Wireframe and ERD Link:https://www.lucidchart.com/invitations/accept/419e5bd5-e084-4d0c-b32b-1d563d71245a
 
 * TrelloBoard: https://trello.com/b/cN3MGvUn/kerusso-20
 
@@ -16,7 +16,7 @@ Kerusso 2.0 is a clothing website that allows you to buy shirts (or atleast atte
 
 * Enter page
 * Click on a shirt
-* Takes you to display page 
+* Takes you to display page
 * Choose size, color and gender you want
 * Submit the shit
 * Click on log in
@@ -34,7 +34,7 @@ Kerusso 2.0 is a clothing website that allows you to buy shirts (or atleast atte
 
 # Technologies Used
 * Meterialize
-* CSS 
+* CSS
 * Express
 * React
 * imagur.com

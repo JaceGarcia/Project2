@@ -130,7 +130,7 @@ class Display extends Component {
                         <option>Female</option>
                         <option>Unisex</option>
                     </select>
-                    <Link to="/:orderId"><input  style={buttonStyles} onClick={this._handleSubmit} type="submit" /></Link>
+                    <Link to={`/cart/${order.id}`}><input  style={buttonStyles} onClick={this._handleSubmit} type="submit" /></Link>
                 </div>
             </div>
         );

@@ -23,8 +23,21 @@ router.post("/", (req, res) => {
     newOrder.save();
 });
 
+//SHOW
 router.get('/:orderId', (req, res) => {
-    const clothesId = req.params.clothesId;
+    const userId = req.params.id;
+    const orderId = req.params.orderId;
+
+    User.findById(userId)
+        .then((shirt) => {
+            const foundOrder = shirt.orders.find((order) => {
+                return order.id === orderId;
+            })
+            res.json(foundOrder)
+        })
+        .catch((error) => {
+            console.log("Failed to find" + error);
+        })
 });
 
 module.exports = router;
